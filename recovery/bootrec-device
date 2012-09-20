@@ -1,0 +1,19 @@
+#!/sbin/sh
+
+# trigger amber LED
+echo '255' > /sys/class/leds/blue/brightness
+echo '255' > /sys/class/leds/red/brightness
+echo '0' > /sys/class/leds/green/brightness
+# trigger button-backlight
+echo '200' > /sys/class/leds/button-backlight/brightness
+
+cat /dev/input/event0 > /dev/keycheck&
+sleep 3
+
+# poweroff LED and button-backlight
+echo '0' > /sys/class/leds/blue/brightness
+echo '0' > /sys/class/leds/red/brightness
+echo '0' > /sys/class/leds/green/brightness
+echo '0' > /sys/class/leds/button-backlight/brightness
+
+kill -9 $!
