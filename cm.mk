@@ -13,7 +13,7 @@ TARGET_SCREEN_WIDTH := 720
 # Inherit CM common Phone stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=LT26w_1266-3189 BUILD_FINGERPRINT=SEMC/LT26w_1266-3189/LT26w:4.0.4/6.1.A.1.58/xft_zw:user/release-keys PRIVATE_BUILD_DESC="LT26w-user 4.0.4 6.1.A.1.58 xft_zw test-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=LT30p_1266-0471 BUILD_FINGERPRINT=Sony/LT30p_1266-0471/LT30p:4.0.4/7.0.A.1.303/0Pr_xw:user/release-keys PRIVATE_BUILD_DESC="LT30p-user 4.0.4 7.0.A.1.303 0Pr_xw test-keys"
 
 PRODUCT_NAME := cm_mint
 PRODUCT_DEVICE := mint

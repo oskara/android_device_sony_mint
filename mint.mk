@@ -32,6 +32,8 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Configuration scripts
 PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/config/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
+   $(LOCAL_PATH)/config/sensors.conf:system/etc/sensors.conf \
    $(LOCAL_PATH)/prebuilt/pre_hw_config.sh:system/etc/pre_hw_config.sh \
    $(LOCAL_PATH)/prebuilt/hw_config.sh:system/etc/hw_config.sh
 
