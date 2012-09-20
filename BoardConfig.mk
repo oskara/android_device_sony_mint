@@ -6,7 +6,7 @@ USE_CAMERA_STUB := true
 #inherit from the common blue definitions
 -include device/sony/blue-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := cyanogen_mint_defconfig
+TARGET_KERNEL_CONFIG := cyanogen_blue_mint_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16
