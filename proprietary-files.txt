@@ -10,14 +10,12 @@ vendor/camera/STW01BM0.dat
 vendor/camera/flash.dat
 vendor/camera/product.dat
 vendor/camera/SOI13BS0_IMX091.dat
-bin/sensorservice
 bin/usbhub_init
 bin/btnvtool
 bin/startupflag
 bin/rmt_storage
 bin/taimport
 bin/tad
-bin/netcfg
 bin/illumination_service
 bin/bridgemgrd
 bin/time_daemon
@@ -35,7 +33,6 @@ bin/wiperiface_v02
 bin/mm-pp-daemon
 bin/cnd
 bin/drmdiagapp
-bin/sdcard
 bin/ds_fmc_appd
 bin/system_monitor
 bin/usbeng
@@ -183,7 +180,6 @@ lib/libloc_api_v02.so
 lib/libqmiservices.so
 lib/libface.so
 lib/libkeyctrl.so
-lib/libcrypto.so
 lib/libloc_adapter.so
 lib/libidd.so
 lib/hw/gps.sony.so
@@ -201,10 +197,8 @@ lib/libgemini.so
 lib/libgps.utils.so
 lib/libdsi_netctrl.so
 lib/libmmcamera_faceproc.so
-lib/libstlport.so
 lib/libsc-a2xx.so
 lib/libcameralight.so
-lib/libalsa-intf.so
 lib/libcamera_clientsemc.so
 lib/libqmi.so
 lib/liboemcamera.so
