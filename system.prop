@@ -40,6 +40,25 @@ persist.cne.rat.acq.time.out=30000
 persist.cne.rat.acq.retry.tout=0
 persist.cne.nsrm.mode=false
 
+# system prop for Bluetooth SAP Profile
+ro.qualcomm.bluetooth.sap=true
+
+#system prop for Bluetooth hci transport
+ro.qualcomm.bt.hci_transport=smd
+
+# system prop for requesting Master role in incoming Bluetooth connection.
+ro.bluetooth.request.master=true
+
+# system prop for Bluetooth Auto connect for remote initated connections
+ro.bluetooth.remote.autoconnect=true
+
+# system property for Bluetooth discoverability time out in seconds
+# 0: Always discoverable
+debug.bt.discoverable_time=0
+
+#system prop for switching gps driver to qmi
+persist.gps.qmienabled=true
+
 # Graphics
 ro.sf.lcd_density=320
 com.qc.hardware=true
