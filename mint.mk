@@ -65,8 +65,3 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
 $(call inherit-product-if-exists, vendor/sony/mint/mint-vendor.mk)
-
-# Wifi
-BOARD_WLAN_DEVICE_REV := bcm4330_b2
-WIFI_BAND             := 802_11_ABG
-$(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4330/device-bcm.mk)

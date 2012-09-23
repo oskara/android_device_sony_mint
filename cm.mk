@@ -4,7 +4,7 @@ $(call inherit-product, device/sony/mint/full_mint.mk)
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+#$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 1280

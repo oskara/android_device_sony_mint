@@ -44,8 +44,6 @@ etc/fast-dormancy/fd_int_conf.txt
 etc/firmware/a225_pfp.fw
 etc/firmware/a225_pm4.fw
 etc/firmware/a225p5_pm4.fw
-etc/firmware/a300_pfp.fw
-etc/firmware/a300_pm4.fw
 etc/firmware/cyttsp_8960_cdp.hex
 etc/firmware/dsps.b00
 etc/firmware/dsps.b01
@@ -174,6 +172,8 @@ lib/libC2D2.so
 lib/libMPU3050.so
 lib/libMiscTaAccessor.so
 lib/libOpenVG.so
+lib/libQSEEComAPI.so
+lib/lib_asb_tee.so
 lib/libacdbloader.so
 lib/libals.so
 lib/libaudcal.so
@@ -191,6 +191,8 @@ lib/libcameraextensionclient.so
 lib/libcameraextensionjni.so
 lib/libcameraextensionservice.so
 lib/libcameralight.so
+lib/libcneqmiutils.so
+lib/libcneutils.so
 lib/libdiag.so
 lib/libdsi_netctrl.so
 lib/libdsutils.so
@@ -226,11 +228,13 @@ lib/libqmi_encdec.so
 lib/libqmiservices.so
 lib/libril-qc-qmi-1.so
 lib/libril.so
+lib/libs1sl.so
 lib/libsc-a2xx.so
 lib/libsensor1.so
 lib/libsurfaceflinger_client.so
 lib/libsys-utils.so
 lib/libta.so
+lib/libxml.so
 lib/sysmon/sysmon_batt_therm.so
 lib/sysmon/sysmon_charge_current_limit_level0.so
 lib/sysmon/sysmon_charge_current_limit_level1.so
