@@ -279,6 +279,7 @@ lib/sysmon/sysmon_usb_current_limit_level1.so
 lib/sysmon/sysmon_usb_current_limit_level2.so
 lib/sysmon/sysmon_usb_current_limit_level3.so
 lib/sysmon/sysmon_usb_current_limit_level4.so
+lib/sysmon/sysmon_xo_therm.so
 vendor/camera/APT01BM0.dat
 vendor/camera/KMO13BS0.dat
 vendor/camera/KMO13BS0_BU6456.dat
