@@ -13,6 +13,7 @@ bin/idd-logreader
 bin/iddd
 bin/illumination_service
 bin/iw
+bin/hci_qcomm_init
 bin/mm-pp-daemon
 bin/mpdecision
 bin/netmgrd
@@ -148,14 +149,6 @@ etc/firmware/wcnss.mdt
 etc/firmware/wlan/prima/WCNSS_cfg.dat
 etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini
 etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
-etc/snd_soc_msm/DL_REC_blue
-etc/snd_soc_msm/FM_REC_blue
-etc/snd_soc_msm/HiFi_Rec_blue
-etc/snd_soc_msm/HiFi_blue
-etc/snd_soc_msm/UL_DL_REC_blue
-etc/snd_soc_msm/Voice_Call_IP_blue
-etc/snd_soc_msm/Voice_Call_blue
-etc/snd_soc_msm/snd_soc_msm_blue
 etc/wifi/gsm_domains.conf
 etc/wifi/wpa_supplicant.conf
 lib/egl/eglsubAndroid.so
